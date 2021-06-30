@@ -1,10 +1,10 @@
 ## Team members
-Emily
-Hariz
-Joseph Low
+Emily <br />
+Hariz <br />
+Joseph Low <br />
 
 
 ### Acknowledgements
-Hum Qingze
+Hum Qingze <br />
 James Raphael Tiovalen
 
