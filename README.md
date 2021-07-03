@@ -18,7 +18,9 @@ If you are pretty interested, head over to the initial site [here](https://githu
 [Project site](https://opensutd.org/DiscoverSUTD-2021-microsite/)
 
 ## Other information
-This event is by OpenSUTD. If you would like to contribute to the event, you can refer to the project site. 
+This event is by OpenSUTD. If you would like to contribute to the event, you can refer to the project site.
+
+You can also refer to the wiki here if you are interested to find out more. 
 
 ## Team members
 [Emily Law](https://github.com/castlemas) <br />
