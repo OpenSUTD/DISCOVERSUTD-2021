@@ -1,9 +1,9 @@
 ## Team members
-Emily <br />
-Hariz <br />
+Emily Law <br />
+Hariz Bin Roslan <br />
 Joseph Low <br />
-JiaYue <br />
-Yong Kang <br />
+Tan Jia Yue <br />
+Chia Yong Kang <br />
 
 ### Acknowledgements
 [Hum Qingze](https://github.com/Fishbiscuit) <br />
