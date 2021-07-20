@@ -8,5 +8,9 @@
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: #FFFFFF;
-    font-family:"Source Sans Pro";
+    font-family:sans-serif;
+    font-size: 17pt;
+    font-weight: lighter;
+    letter-spacing: 0.025em;
+    line-height: 1.65;
 }
