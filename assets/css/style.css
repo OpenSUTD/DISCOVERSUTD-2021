@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("../vendor/fontawesome/css/all.min.css");
+@import url("proxima-nova.css");
+
+
 /* Modify the background color */
           
 .navbar-custom {
     background-color: #800000;
+    font-family: Comic Neue;
 }
 /* Modify brand and text color */
   
@@ -13,4 +19,11 @@
     font-weight: lighter;
     letter-spacing: 0.025em;
     line-height: 1.65;
+}
+
+/* paragraph font */ 
+.p {
+    font-size: small;
+    font-family: Comfortaa;
+    
 }
