@@ -21,9 +21,37 @@
     line-height: 1.65;
 }
 
-/* paragraph font */ 
-.p {
-    font-size: small;
-    font-family: Comfortaa;
-    
+.text-left {
+    font-size: 18pt ;
+    font-family: proxima-nova.css;
+    position: absolute;
+    left: 180px;
+    right: 180px;
+    top: 179.8px;
+}
+
+.h1 {
+
+    position: absolute;
+    left: 180px;
+    top: 95px;
+    font-size: 31.5pt;
+}
+
+.header-right {
+    position: absolute;
+    left: 1000px;
+    top: 300px; 
+    font-size: 18pt;
+    font-family: proxima-nova.css;
+}
+
+.pararight {
+
+    position: absolute;
+    left: 1000px;
+    top: 400px; 
+    font-size: 18pt;
+    font-family: proxima-nova.css;
+      
 }
