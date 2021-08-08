@@ -89,41 +89,173 @@
       </nav>
 
       <!-- HOME PAGE PART 1 (GUIDE, copy this template)-->
-
-      <Humanlib class="h1">
-        Human Library
-      
-      </Humanlib>
-
-      <p class="text-left">
-      Discover SUTD Human Library is an event where YOU can borrow <b>"Books"</b> to have an informal conversation about anything; general knowledge regarding the pillar, interests and experiences! <br> 
-      <br/>
-
-      Who are the books you might be wondering? <b>"Books" </b>are our very own faculty professors who are able to share their certain knowledge and insights about the pillar to YOU guys! <br>
-      <br/>
-
-      In intimate groups of 5, look forward to discuss some questions we prepared for sharing!
-
-      <br/>
-        <p id="rcorners3"> 
+      <div class="container">
+        <div style="background:transparent !important" class="jumbotron">
           
-          Register <b>HERE</b> <br><br>
+
+          <h1>
+            Human Library
+          
+          </h1>
+        
+        <p class=".jumbotron p">
+          Discover SUTD Human Library is an event where YOU can borrow <b>"Books"</b> to have an informal conversation about anything; general knowledge regarding the pillar, interests and experiences! <br> 
+          <br/>
+
+          Who are the books you might be wondering? <b>"Books" </b>are our very own faculty professors who are able to share their certain knowledge and insights about the pillar to YOU guys! <br>
+          <br/>
+
+          In intimate groups of 5, look forward to discuss some questions we prepared for sharing!
+      </p>
+      </div>
+      
+      
+      <p class="rcorners3">
+          
+          Register 
+          
+          <a href="https://www.w3schools.com/"><span style="color:#FF0000">HERE</span>
+          </a>
+          
+          <br><br>
           Dates & Times: 14 Sept (4:00pm - 6:00pm), 15 Sept (2:00pm - 4:00pm)<br/>
           
           Venue: Multi-Purpose Hall 1 & 2
-        
+     
         </p>
-      </p>
-      <br/>
-
-      <p class= "parabelow"><br/>
-
-
-        You are able to check out the “books” biography below to have a general idea on
-        the interests that the “books” possess! <br/>
-        <br/>Start picking your books!
-      </p>
       
+      <div style="background:transparent !important" class="jumbotron">
+        <p>
+
+          You are able to check out the “books” biography below to have a general idea on
+          the interests that the “books” possess! <br/>
+          <br/>Start picking your books!
+        </p>
+
+
+
+        </div>
+        
+        <style>
+        body {font-family: Arial;}
+        
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #ddd;
+        }
+        
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="card-group m-2">
+        
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+          <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+          <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+        
+        <div id="London" class="tabcontent">
+          <div class="container">
+            
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="https://assets.codepen.io/6093409/mountains-4.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+            <br>
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+          <h3>Paris</h3>
+          <p>Paris is the capital of France.</p> 
+        </div>
+        
+        <div id="Tokyo" class="tabcontent">
+          <h3>Tokyo</h3>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+        
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+
+
+
+  <div class="card">
+    <img src="https://assets.codepen.io/6093409/mountains-4.jpg" alt="a snowy mountain with clouds behind it"/>
+    <div class="card-body">
+      <h2 class="card-title">Mountains</h2>
+      <p class="card-text">This is a photo of snowy-covered mountains. How majestic.</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://assets.codepen.io/6093409/mountains-3.jpg" alt="a mountain range under a thin layer of clouds"/>
+    <div class="card-body">
+      <h2 class="card-title">Mountains</h2>
+      <p class="card-text">This is a photo of snowy-covered mountains. How majestic.</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+ </div>
+        
+
+           
+        </body>
+        </html> 
+
+          
+
+
+</div>  
 </body>
 
 
