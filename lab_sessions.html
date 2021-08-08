@@ -89,52 +89,74 @@
       </nav>
       
       <!-- HOME PAGE PART 1 (GUIDE, copy this template)-->
-
-      <h1 class="h1">
+      <div class="container">
+        <div style="background:transparent !important" class="jumbotron">
+      <h1>
         Lab Sessions<br/> 
         
       </h1>
       
       
-      <p class="text-left">
+      <p class=".jumbotron p">
       
         Explore the maker side of SUTD!<br/> 
          
         <br/>
         
+        
       </p>
 
-      <hell class="header-left">
-        DManD<br/>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
         
-        <br/>
-        <iframe width="625" height="400"
-        src="https://www.youtube.com/embed/ixTOwsuIeqk">
-        </iframe>
-        <br/>
-        <br/>
-
-        <br/>
-
-      </hell>
-      
-      <demon class="header-right">  
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          
+          padding: 10px;
+          height: 370px; /* Should be removed. Only for demonstration */
+        }
         
-         Details <br/>
-        <br/>
-      </demon>
-
-      <p2 class="pararight">  
-        DManD IS COOL!
-        cgfvbh jnmkjnhbvgfbhnjhbvgfcgvhbnjhbjvgcgf<br/>
-        -insert date- <br/>
-        -insert time- <br/>
-        -insert venue- <br/>
-      </p2>
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
         
-
-      </p>
-      
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <div class="row">
+          <div class="column" style="background-color:rgba(110, 110, 110, 0);">
+            <h2>DManD</h2>
+            <p>
+            
+              <iframe width =490px; height=300px; class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ixTOwsuIeqk">
+              </iframe></p>
+          </div>
+          <div class="column" style="background-color:rgba(82, 80, 80, 0);">
+            <h2> Details</h2>
+            <p>DManD IS COOL!
+              cgfvbh jnmkjnhbvgfbhnjhbvgfcgvhbnjhbjvgcgf<br/>
+              -insert date- <br/>
+              -insert time- <br/>
+              -insert venue- <br/></p>
+          </div>
+        </div>
 
       
 </body>
