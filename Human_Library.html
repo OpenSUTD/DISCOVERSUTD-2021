@@ -35,11 +35,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- included css style folders here-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/human_lib.css">
     
     <!-- iOS Splashscreens Package -->
-    <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="/assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -73,56 +73,88 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-               <img src="assets/favicon.ico" alt="Logo" style="width:50px;"></a>
-          </div>
-          <ul class="nav navbar-right">
-            <li class="navbar-brand"><a href="fifthrows.html"><span style="color:white">FIFTH ROWS</span></a></li>
-            <li class="navbar-brand"><a href="Human_Library.html"><span style="color:white"> HUMAN LIBRARY</span></a></li>
-            <li class="navbar-brand"><a href="supper.html"><span style="color:white">SUPPER</span></a></li>
-            <li class="navbar-brand"><a href="lab_sessions.html"><span style="color:white"> LAB SESSIONS</span></a></li>
-            <li></li>
+    <div id="topnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon.ico" alt="Logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="fifthrows.html">FIFTH ROWS<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Human_Library.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                HUMAN LIBRARY
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ASD</a>
+                <a class="dropdown-item" href="#">ISTD</a>
+                <a class="dropdown-item" href="#">CSD</a>
+                <a class="dropdown-item" href="#">EPD</a>
+                <a class="dropdown-item" href="#">DAI</a>
+                <a class="dropdown-item" href="#">SMT</a>
+                <a class="dropdown-item" href="#">HASS</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Supper.html">SUPPER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lab_sessions.html">LAB SESSIONS</a>
+            </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- HOME PAGE PART 1 (GUIDE, copy this template)-->
+      <!-- Start of section-->
 
-      <h1>
-        Human Library
-      </h1>
-      <div>
-      <p class="text-left">
-      Discover SUTD Human Library is an event where YOU can borrow <b>"Books"</b> to have an informal conversation about anything; general knowledge regarding the pillar, interests and experiences! <br> 
+      <h1 style="padding-top: 100px;">Human Library</h1>
       <br/>
-
-      Who are the books you might be wondering? <b>"Books" </b>are our very own faculty professors who are able to share their certain knowledge and insights about the pillar to YOU guys! <br>
       <br/>
-
-      In intimate groups of 5, look forward to discuss some questions we prepared for sharing!
-
+    <section>
+      <h2>About</h2>
       <br/>
-        <p id="rcorners3"> 
-          
-          Register <b>HERE</b> <br><br>
-          Dates & Times: 14 Sept (4:00pm - 6:00pm), 15 Sept (2:00pm - 4:00pm)<br/>
-          
-          Venue: Multi-Purpose Hall 1 & 2
-        
+      <p>
+        DiscoverSUTD Human Library is an event where <b>YOU</b> can borrow "books" to have an informal conversation about anything; general knwoledge regarding 
+        the Pillar/Programmes/Clusters, interests and experiences! 
+        <br/>
+        <br/>
+        What are the books you might be wondering?
+        <br/>
+        <br/>
+        ”Books” are our very own faculty professors who are able to share their certain knowledge and insights about the pillar to YOU guys! 
+        <br/>
+        <br/>
+        In intimate groups of 5, look forward to discuss some questions we prepared for sharing!
+      </p>
+      <br/>
+      <section>
+        <h3>Registration</h3>
+        <br/>
+        <p>
+          <b>Location:</b> Multi-Purpose Hall 1 & 2 <br/>
+          <b>Date: 14 September 2021, Tuesday</b> <br/>
+          <b>Time:</b> 4pm - 6pm <br/>
+          <b>Date: 15 September 2021, Wednesday</b> <br/>
+          <b>Time:</b> 2pm - 4pm <br/>
+          <!--TODO add the link here! in href-->
+          <a href="#"><span style="color: #800;">FIRST COME FIRST SERVE! REGISTER HERE!</span></a>
         </p>
-      </p>
+      </section>
+    </section>
+    <section>
       <br/>
+      <br/>
+      <h2>ASD</h2>
+      <p>Formal language, which is used as a description zone, formatting the appearance of a web page, written by the help of markup languages HTML and XHTML, but it can be applied to any XML-document, for example, to SVG or XUL.</p>
+    </section>
 
-      <p class= "parabelow"><br/>
-        You are able to check out the “books” biography below to have a general idea on
-        the interests that the “books” possess! <br/>
-        <br/>Start picking your books!
-      </p>
-      </div>
-      
 </body>
 
 

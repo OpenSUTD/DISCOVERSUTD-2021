@@ -1,0 +1,28 @@
+/*navbar is here */
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #800 !important;
+}
+.navbar .navbar-brand{
+    color : #FFF;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.navbar .navbar-nav{
+    margin : 0 20;
+}
+.navbar .nav-item a{
+    color: #FFF !important;
+}
+
+.navbar .dropdown-menu{
+    background-color: #800;
+}
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* section start */
+
