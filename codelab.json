@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-09-07T12:30:20Z",
+  "id": "DiscoverSUTD-Guideesd",
+  "duration": 54,
+  "title": "DiscoverSUTD Guide",
+  "authors": "OpenSUTD",
+  "summary": "Through this guide, you will be able to experience much of what SUTD can offer. This entire event can be accessed on the go (no more e-mail hunting!) and allows for dynamic feedback we progress.",
+  "source": "19QKi45tcvDtmJ-L44ifVx05NXIIrIw0yUWPO2eXIfd4",
+  "theme": "guide",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "guide"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/OpenSUTD/discovery-week-working-title/issues/new/choose",
+  "url": "DiscoverSUTD-Guideesd"
+}
