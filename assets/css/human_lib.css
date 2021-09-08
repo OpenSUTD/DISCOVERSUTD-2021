@@ -56,7 +56,24 @@ html{
     background-color: #800;
     border-color: #800;
   }
+  .btn-primary:hover{
+    color: #fff;
+    background-color: #800;
+    border-color: #800;
+    transform:scale(1.2);
+  }
 
 /* section area*/
-
+h2{
+    color:#800;
+}
+section{
+    padding-left: 45px;
+}
+h3{
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+        background-clip: text;
+}
 
