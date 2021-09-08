@@ -191,17 +191,27 @@
   }
   .image_guide {
     position: relative;
+    padding-top: 10%;
     text-align: center;
     color:white;
     font-size: large;
   }
   .center_image {
     position: absolute;
-    top:50%;
-    left: 50%;
+    text-align: left;
+    top:60%;
+    font-size: 23px;
+    left: 40%;
+    
     transform: translate(-50%, -50%);
   }
 
+  .bottom_image {
+    position:absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   /* display filter for image */
   .guide_img{
     filter: blur(3px) saturate(2);
@@ -233,6 +243,10 @@
     border-radius: 30px;
     transform: scale(1.2);
   }
+
+.font-for-comfortaabold{
+  font-family: ComfortaaBold;
+}
 
   /*
   put in div id 
