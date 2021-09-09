@@ -38,6 +38,9 @@
 
     <!-- Reponsive top nav for small screens hamburger menu-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
     
     <!-- iOS Splashscreens Package -->
     <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -77,59 +80,91 @@
 
     <!-- NAVBAR -->
      <!-- NAVBAR -->
-     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">
-             <img src="assets/favicon.ico" alt="Logo" style="width:50px;"></a>
+     <div id="topnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon.ico" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="fifthrows.html">FIFTH ROWS<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Human_Library.html" >
+                HUMAN LIBRARY
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Supper.html">SUPPER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lab_sessions.html">LAB SESSIONS</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav navbar-right">
-          <li class="navbar-brand"><a href="fifthrows.html"><span style="color:white">FIFTH ROWS</span></a></li>
-          <li class="navbar-brand"><a href="Human_Library.html"><span style="color:white"> HUMAN LIBRARY</span></a></li>
-          <li class="navbar-brand"><a href="supper.html"><span style="color:white">SUPPER</span></a></li>
-          <li class="navbar-brand"><a href="lab_sessions.html"><span style="color:white"> LAB SESSIONS</span></a></li>
-          <li></li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <br/>
     <br/>
       <!-- HOME PAGE PART 1 (index)-->
       <div class="d-flex flex-row">
         <div class="ml-auto">
-      <h1 style="padding-top: 50px;">
+      <h1 style="padding-top: 50px;font-family:'Comfortaa', cursive;font-size:55px">
         <br/>
         <br/>
+        Hello There. 
+      </h1>
+      <h1 style="font-family: 'Comfortaa', cursive;font-size: 55px">
           Welcome to<br/> 
-          DiscoverSUTD!
+          DiscoverSUTD!                       
+        
       </h1>
       <br/>
       <br/>
-      <p>
+      <p style="font-family: 'Comfortaa', cursive;font-size:15px">
         DiscoverSUTD is an annual event taking<br/> 
         place from 13 September to 30 September 2021 <br/>
         <br/>
         Welcome to the one-stop place for everything that is here!
+        <br/>
+        <br/>
+      
+      
+        <a href="#eventcalendar" class="eventcalendar_btn">Go to our calendar</a>
+      <a class="eventcalendar_btn" href="#DiscoverPillars">Learn more about pillars</a>
+        <button onclick="window.open('https://sutdiscourse.org/')" type="submit" class="eventcalendar_btn">Discourse</button> 
       </p>
       </div>
+    
       <!--GUIDE hyperlink-->
-      <div class="image_guide float-right ml-auto">
+    
+      <div class="image_guide float-right mr-auto">
       <!--TODO PLEASE ADD THE IMAGE OF THE GUIDE HERE-->
-      <img src="assets/images/guide.jpeg" width="600" height="400" class="guide_img"/>
+      <img src="assets/images/guide.jpeg" width="600" height="450" class="guide_img"/>
         <div class="center_image">
           
-         <span style="font-size: larger;">A compilation of all the <br/>
+         <span style="font-size: larger;font-family: 'Comfortaa', cursive;">A compilation of all the <br/>
           resources you'll need as a student</span> 
           
           <br/>
           <br/>
+          </div>
+          <div class="bottom_image">
           <a href="guide.html">
             <button type="submit" class="guide_btn">View our Freshmore Handbook</button>
           </a>
         </div>
       </div>
     </div>
+    
+  
       <!-- calendar portion-->
+      <section id= eventcalendar></section>
       <p>
         INSERT the damn calendar here <br/>
         WOOOO<br/>
@@ -139,7 +174,99 @@
         <img src="assets/images/guide.jpeg"/>
       </p>
       
+      <!--pillarportion-->
+      <!-- HOME PAGE PART 1 (index)-->
       
+        
+      <section id = "DiscoverPillars">
+      </section>
+      <h1 style="padding-left:50px;font-family: 'Comfortaa', cursive;font-size:55px">
+        <br/>
+        <br/>
+        DiscoverPillars 
+      </h1>
+      <p style="padding-left:50px;font-family: 'Comfortaa', cursive;font-size: 20px">
+        DiscoverPillars is where freshmores will have their first exposure to what the various pillars of SUTD offers. Pillars are a key part of the SUTD curriculum where one finds their passion and delves deep into their areas of interest. Don’t miss out on this chance to hear from the people who designed the pillar curriculums and clarify any pressing questions you might have. 
+
+                                 
+        
+      </p>
+      
+      <br/>
+      <br/>
+     
+      </div>
+      
+  <section>
+        <h2>ASD</h2>
+         <!-- copy this onwards-->
+         <div class="profile-card-4 text-center"><img src="img\asd.jpg" class="img img-responsive" width="298" height="340">
+          <div class="profile-content">
+              <div class="profile-name">
+                  <p><a src="https://asd.sutd.edu.sg/"></p>
+              </div>
+              <div class="profile-description">
+                Register for the Zoom session <a href="https://sutd-edu.zoom.us/meeting/register/tJwkc-mtqDwpE9VROlthSTi6Rx_Y2v0QsZvG" target="_blank"style="color:#800">HERE</a><br/>
+                Date and time: 28/9, 2:00pm - 3:00pm
+
+              </div>
+              
+              </div>
+          </div>
+  </section>
+  <section>
+          <h2>ESD</h2>
+          <!-- copy this onwards-->
+          <div class="profile-card-4 text-center"><img src="img\esd.jfif" class="img img-responsive" width="298" height="340">
+           <div class="profile-content">
+               <div class="profile-name">
+                   <p><a src="https://esd.sutd.edu.sg/"></p>
+               </div>
+               <div class="profile-description">
+                Register for their Energy Consumption Workshop <a href="https://forms.office.com/pages/responsepage.aspx?id=drd2NJDpck-5UGJImDFiPbXEMa7OVLBKjwnDhEE6Yb1UNUxIWkdYWjVPRFQ3SkNZQUJMQjFPVUs4OC4u" target="_blank"style="color:#800">HERE</a><br/>
+                Date and time: 21/9/2021, 3:00pm - 4:00pm
+
+                 
+               </div>
+               
+               </div>
+           </div>
+          </section>
+          <section>
+           <h2>EPD</h2>
+           <!-- copy this onwards-->
+           <div class="profile-card-4 text-center"><img src="img\212x300xSUTD-EPD-Brochure_300120_v9_cover.jpg.pagespeed.ic.QcZhk_jSuD.jfif" class="img img-responsive" width="298" height="340">
+            <div class="profile-content">
+                <div class="profile-name">
+                    <p><a src="https://epd.sutd.edu.sg/"></p>
+                </div>
+                <div class="profile-description">
+                  Register for their Zoom session <a href="https://sutd-edu.zoom.us/meeting/register/tJArf-qoqD4vHtGrybiYFAvw6I81Bl7YROdp" target="_blank"style="color:#800">HERE</a><br/>
+                  Date and time: 23/9/2021, 2:00pm - 3:00pm 
+                </div>
+                
+                </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>ISTD</h2>
+            <!-- copy this onwards-->
+            <div class="profile-card-4 text-center"><img src="img\CSD.jfif" class="img img-responsive" width="298" height="340">
+             <div class="profile-content">
+                 <div class="profile-name">
+                     <p><a src="https://istd.sutd.edu.sg/"></p>
+                 </div>
+                 <div class="profile-description">
+                  Register for their Zoom session <a href="https://sutd-edu.zoom.us/meeting/register/tJctfu6orDsoHNF-01TZutaOEfKSl-wUX4SF" target="_blank"style="color:#800;font-size: 20px">HERE</a><br/>
+                  Date and time: 29/9/2021,  3:00pm - 4:00p
+                 </div>
+                 
+                 </div>
+             </div>
+            </section>
+
+            
 </body>
 <!--
 Psst. Hey you. Yes, you.
