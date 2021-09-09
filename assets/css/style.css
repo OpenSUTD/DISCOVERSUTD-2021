@@ -191,17 +191,27 @@
   }
   .image_guide {
     position: relative;
+    padding-top: 10%;
     text-align: center;
     color:white;
     font-size: large;
   }
   .center_image {
     position: absolute;
-    top:50%;
-    left: 50%;
+    text-align: left;
+    top:60%;
+    font-size: 23px;
+    left: 40%;
+    
     transform: translate(-50%, -50%);
   }
 
+  .bottom_image {
+    position:absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   /* display filter for image */
   .guide_img{
     filter: blur(3px) saturate(2);
@@ -234,9 +244,137 @@
     transform: scale(1.2);
   }
 
+  .eventcalendar_btn{
+    color: #800000;
+      background: #ffffff;
+      
+      margin-left: 0px;
+      margin-right: 10px;
+      font-size: 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      
+      border-color: #800000;
+      border-radius: 20px;
+   
+  }
+
   /*
   put in div id 
   #nav-placeholder{
 
   }
   */
+  
+  /* nav */
+  html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #800 !important;
+}
+.navbar .navbar-brand{
+    color : #FFF;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.navbar .navbar-nav{
+    margin : 0 20;
+}
+.navbar .nav-item a{
+    color: #FFF !important;
+}
+
+.navbar .dropdown-menu{
+    background-color: #800;
+}
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+section{
+  float: left;
+  padding-left: 50px;
+  padding-right: 25px;
+  
+  
+}
+
+/*profile card*/
+
+  
+.profile-card-4 {
+  max-width: 300px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+  cursor: pointer;
+  
+}
+
+.profile-card-4 img {
+  transition: all 0.25s linear;
+}
+
+.profile-card-4 .profile-content {
+  position: relative;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -70px;
+  color: #FFF;
+  font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+  color: #777;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+.profile-card-4 .profile-content::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  top: -10px;
+  left: 0px;
+  right: 0px;
+  background-color: #FFF;
+  z-index: 0;
+  transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+  transform: rotate(5deg) scale(1.1, 1.1);
+  filter: brightness(110%);
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
