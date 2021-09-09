@@ -22,23 +22,24 @@
 
     <!-- include bootstrap-->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- included css style folders here-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/lab_sessions.css">
     
     <!-- iOS Splashscreens Package -->
-    <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="/assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -72,71 +73,97 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-               <img src="assets/favicon.ico" alt="Logo" style="width:50px;"></a>
-          </div>
-          <ul class="nav navbar-right">
-            <li class="navbar-brand"><a href="fifthrows.html"><span style="color:white">FIFTH ROWS</span></a></li>
-            <li class="navbar-brand"><a href="Human_Library.html"><span style="color:white"> HUMAN LIBRARY</span></a></li>
-            <li class="navbar-brand"><a href="supper.html"><span style="color:white">SUPPER</span></a></li>
-            <li class="navbar-brand"><a href="lab_sessions.html"><span style="color:white"> LAB SESSIONS</span></a></li>
-            <li></li>
+    <div id="topnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon.ico" alt="Logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="fifthrows.html">FIFTH ROWS<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Human_Library.html" >
+                HUMAN LIBRARY
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Supper.html">SUPPER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lab_sessions.html">LAB SESSIONS</a>
+            </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- HOME PAGE PART 1 (GUIDE, copy this template)-->
-
-      <h1 class="h1">
-        Lab Sessions<br/> 
-        
-      </h1>
-      
-      
-      <p class="text-left">
-      
-        Explore the maker side of SUTD!<br/> 
-         
+      <!-- Start of section-->
+      <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Lab Sessions</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Discover the maker side of SUTD</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#labs">View sessions</a>
+                </div>
+            </div>
+        </header>
+      <br/>
+      <br/>
+    <section id="labs">
+      <br/>
+        <h3>DmanD</h3>
         <br/>
-        
-      </p>
+        <p>
+          The SUTD Digital Manufacturing and Design and (DManD) Centre was established to carry out cutting-edge research that will create the frontiers of digital design and manufacturing. Our center houses various additive manufacturing machines, as well as characterization facilities, allowing us to move from concept to prototype quickly.
+          <br/>
+          <br/>
+          In this lab visit, you will be introduced to our equipment, as well as several examples of projects by our researchers, allowing visitors to understand the capabilities of our center.
+        </p>
+        <!--Container for the lab video and session details -->
+        <div class="d-flex justify-content-center align-content-center flex-wrap">
+          <div class=" p-2 container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ixTOwsuIeqk" title="DmanD Lab Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class= "p-2"style="margin:auto auto;">
+            Date: <b>27 September 2021</b><br/>
+            Time: <b>1600-1730</b>
+            Venue: <b>Building 1 Level 7, 1.707,<br/> DManD Studio</b><br/>
+            <span color="#800">Register here!</span>
+          </div>
+        </div>
+    </section>
+    <section>
+      <br/>
+        <h3>ROAR Lab</h3>
+        <br/>
+        <p>
+          Led by Assistant Professor Mohan Rajesh Elara, the RObotics and Automation Research (ROAR) Lab focuses on reconfigurable robotics for cleaning and maintenance.  This means that our robots are able to adjust its morphology to adapt to its environment and efficiently complete its assigned task.
+          <br/>
+          <br/>
+          In this lab session, you will be introduced to some of our robots and the startups born from ROAR Lab. We will also have robot demonstrations, and if time permits, QnA with our wonderful researchers.        </p>
+        <!--Container for the lab video and session details -->
+        <div class="d-flex justify-content-space align-content-center flex-wrap">
+          <div class=" p-2">
+            <a src="https://www.youtube.com/user/mrelara/videos"></a>
+          </div>
+          <div class= "p-2">
+            Date: <b>27 September 2021</b><br/>
+            Time: <b>1600-1730</b>
+            Venue: <b>Building 2 Level 6, 2.603,<br/> Skunkworks Lab</b><br/>
+            <span color="#800">Register here!</span>
+          </div>
+        </div>
+    </section>
 
-      <hell class="header-left">
-        DManD<br/>
-        
-        <br/>
-        <iframe width="625" height="400"
-        src="https://www.youtube.com/embed/ixTOwsuIeqk">
-        </iframe>
-        <br/>
-        <br/>
-
-        <br/>
-
-      </hell>
       
-      <demon class="header-right">  
-        
-         Details <br/>
-        <br/>
-      </demon>
 
-      <p2 class="pararight">  
-        DManD IS COOL!
-        cgfvbh jnmkjnhbvgfbhnjhbvgfcgvhbnjhbjvgcgf<br/>
-        -insert date- <br/>
-        -insert time- <br/>
-        -insert venue- <br/>
-      </p2>
-        
 
-      </p>
-      
-
-      
 </body>
 
 

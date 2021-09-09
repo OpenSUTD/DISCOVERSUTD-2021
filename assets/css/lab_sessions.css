@@ -1,0 +1,95 @@
+/*navbar is here */
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #800 !important;
+}
+.navbar .navbar-brand{
+    color : #FFF;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.navbar .navbar-nav{
+    margin : 0 20;
+}
+.navbar .nav-item a{
+    color: #FFF !important;
+}
+
+.navbar .dropdown-menu{
+    background-color: #800;
+}
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*starting portion*/
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .masthead h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 60px;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.726), rgba(238, 231, 231, 0.664));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  .masthead h2 {
+    max-width: 40rem;
+    font-size: 30px;
+  }
+  .btn-primary{
+    color: #fff;
+    background-color: #800;
+    border-color: #800;
+  }
+  .btn-primary:hover{
+    color: #fff;
+    background-color: #800;
+    border-color: #800;
+    transform:scale(1.2);
+  }
+
+/* section area*/
+h2{
+    color:#800;
+}
+section{
+    padding-left: 45px;
+}
+h3{
+    background: linear-gradient(to right, #525faa 100%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+        background-clip: text;
+    animation-name: labname;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+}
+@keyframes labname {
+    from{
+        background: linear-gradient(to right, #525faa 100%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    }
+    to{
+        background: linear-gradient(to right, #52aaa6 100%, #6ca5a7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    }
+}
+
+/*containerising the lab*/
