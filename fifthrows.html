@@ -22,23 +22,24 @@
 
     <!-- include bootstrap-->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- included css style folders here-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fifth_rows.css">
     
     <!-- iOS Splashscreens Package -->
-    <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="/assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -72,79 +73,564 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-               <img src="assets/favicon.ico" alt="Logo" style="width:50px;"></a>
-          </div>
-          <ul class="nav navbar-right">
-            <li class="navbar-brand"><a href="fifthrows.html"><span style="color:white">FIFTH ROWS</span></a></li>
-            <li class="navbar-brand"><a href="Human_Library.html"><span style="color:white"> HUMAN LIBRARY</span></a></li>
-            <li class="navbar-brand"><a href="supper.html"><span style="color:white">SUPPER</span></a></li>
-            <li class="navbar-brand"><a href="lab_sessions.html"><span style="color:white"> LAB SESSIONS</span></a></li>
-            <li></li>
+    <div id="topnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon.ico" alt="Logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="fifthrows.html">FIFTH ROWS<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Human_Library.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                HUMAN LIBRARY
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Supper.html">SUPPER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lab_sessions.html">LAB SESSIONS</a>
+            </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- HOME PAGE PART 1 (Fifthrows)-->
+      <!-- Start of section-->
+      <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">FIFTH ROWS</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A Part of SUTD Student Life</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#registration">REGISTER</a>
+                </div>
+            </div>
+        </header>
+      <br/>
+      <br/>
+    <section id="ig">
+      <h2>Interest Groups</h2>
+      <br/>
+</section>
+    <section id="frs">
+      <h2>Fifth Rows</h2>
+      <br/>
+
+      <div id="makers">
+      <h3>Makers</h3>
+      <br/>
+      <p>Meet our very own fifth rows that form part of our maker culture from software to hardware related! Get your hands on by joining their Fifth Rows!</p>
+      <br/>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-3">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Energy Club</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para"><b>Description:</b> Our club aims towards clean and sustainable energy by educating our members and fellow peers on ways to incorporate them into their work through 
+                thinking, prototyping and fabricating sustainable solutions for modern day problems. Our work vary from long term projects to conducting 
+                TinkerDay Workshops for the student population. 
+              </div>
+                <br/>
+                <b>Meeting Timings:</b> Event-by-event basis
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto:yenching_phua@mymail.sutd.edu.sg">Phua Yen Ching</a><br/><br/>
+                <b>Visit their:</b><br/>
+                <a href="https://t.me/joinchat/H3dY-xeG78ZME3ZzLiWwyg">Telegram</a>
+                  <a href="mailto:energy@club.sutd.edu.sg">Email</a>
+                  <a href="https://www.instagram.com/sutd_energyclub/">Instagram</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">MakerSpace</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para"><b>Description:</b>Makerspace is a friendly club that gathers like-minded friends into an environment that helps to facilitate creativity and hands on activities. Learning and passing on the knowledge about making things with our own two hands. We want to help everyone who joins Makerspace to experience the satisfaction to have an idea and materialize it with your own two hands.
+                  </div>
+                  <br/>
+                <b>Meeting Timings:</b> Wednesday 3.30pm to 5pm
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto:bryan_low@mymail.sutd.edu.sg">Bryan Low Wei Sheng</a><br/><br/>
+                <b>Visit their:</b><br/>
+                
+                  <a href="https://makerspace.opensutd.org">Website</a>
+                    <a href="https://t.me/joinchat/T7TPwJiGvQgzZTU1">Telegram</a>
+                    <a href="https://www.instagram.com/sutdmakers">Instagram</a>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SUTDio</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> SUTDio is a place in which creatives and designers can come together to experience culture in a studio and to learn more about architecture. We are open to anyone who shows interest in the arts, not just architecture!
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> Thursday 8pm - 10pm
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto: jonathan_leong@mymail.sutd.edu.sg">Jonathan Leong</a><br/><br/>
+                <b>Visit their:</b><br/>
+                
+                  <a href="https://sutdio.opensutd.org/">Website</a>
+                    <a href="https://t.me/joinchat/T7TPwJiGvQgzZTU1">Telegram</a>
+                    <a href="https://www.instagram.com/sutd.io">Instagram</a>
+                    <a href="https://www.facebook.com/sutdioasd/">Facebook</a>
+                    <a href="https://www.youtube.com/channel/UCm7rw25uKQCW2aG2FPvgZtA">Youtube</a>
+                    <a href="https://youtu.be/gfX3smUqH4g">Club Video</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IEEE-SUTD Student Chapter</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> Established in 2014, IEEE-SUTD Student Branch is the newest Student Branch under the IEEE Singapore Section. We conduct regular internal and external workshops including PCB design, Arduino and Kivy workshops. Through LITE and self-initiated Projects, we offer our members the opportunity to learn additional knowledge outside the curriculum with financial sponsorship. We also provide our members with access to our internal inventory through our loaning system.
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> Subject to Feedback
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto:kaveri_putti@mymail.sutd.edu.sg">Kaveri</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  <a href="https://ieee.opensutd.org/">Website</a>
+                  <a href="https://www.youtube.com/watch?v=7DfWtkDgvSc">Club Video</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Multi Rotor SUTD (MRS)</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> We specialize in drones, especially quadcopters. If you would like to design, build and fly drones, or RC planes/boats/cars, you've come to the right place!
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> Ad Hoc
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto:sean_yeo@mymail.sutd.edu.sg">Sean Yeo</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  <a href="https://www.instagram.com/sutdrones">Instagram</a>
+                  <a href="https://youtu.be/w4Z5deG4dAc">Club Video</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IES-SUTD Student Chapter
+              </h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> IES (Institution of Engineers, Singapore) aims to be the heart and voice of engineers and to be the national body and home for engineers in Singapore. IES represents the engineers nationally and internationally. In the IES club, we wish to inculcate a sense of curiosity for the unknown in the field of engineering. We provide an interconnected network which allows many such curious individuals to interact and present their ideas. We also organise numerous events to educate and inspire students to pursue a career path in STEM industries.
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> TBD (tentative)
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="mailto:visshal_natarajan@mymail.sutd.edu.sg">Vishaal</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  
+                  <a href="https://youtu.be/om9ovJgYOys">Club Video</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SUTD Organization of Autonomous Robotics</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> SOAR focuses on autonomous robotics platforms, as well as AI and machine learning frameworks. We aim to nurture a committed robotics community through impactful projects and member development. While we are a very niche club, we welcome people of any background to come and join us on this journey. We believe that robotics should be accessible to everyone and host regular workshops to impart skills and knowledge. In addition, we take on a variety of robotics projects to build our members' skills and club capabilities.
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> <br/>
+                Monday 7:30 - 9:30 (Hardware) <br/>
+                Thursday 7:30 - 9:30 (Software)<br/>
+
+                Project Timings: Decided by individual project teams
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="https://t.me/abramtan">Abram Tan</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  
+                  <a href="https://soar.opensutd.org">Website</a>
+                  <a href="https://www.instagram.com/sutdsoar/">Instagram</a>
+                  <a href="https://t.me/joinchat/zc3ZMdGWkhQyYzFl">Telegram</a>
+                  <a href="mailto:soar@club.sutd.edu.sg">Email</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/uJL51jBuT1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Electric Vehicle Club (EV)</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> EV club is a team of passionate individuals who dream, design, and build electric vehicles. We embark on automotive engineering projects at all levels, from reinforcing fundamentals by tweaking go-karts, to pushing boundaries, designing and 3d printing a full-sized electric vehicle. Together with our experienced club mentors and like-minded seniors, we build not only our knowledge but hands-on skills, seeking to continuously push boundaries as engineering students.
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> <br/>
+                Project-Based (Wednesdays and Fridays) at EV shed, EV store or IDer lab
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="https://t.me/expjk">Joshua Kwan</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  
+                  <a href="https://soar.opensutd.org">Website</a>
+                  <a href="https://www.instagram.com/sutdsoar/">Instagram</a>
+                  <a href="https://t.me/joinchat/zc3ZMdGWkhQyYzFl">Telegram</a>
+                  <a href="mailto:soar@club.sutd.edu.sg">Email</a>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Mechanical Designer Club (MechD)</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> In MechD, we focus on computing-aided design (CAD) with software like Solidworks and Fusion360. We teach how to design models and products that you can 3D print. Additionally, we provide both beginner and advanced workshops for everyone as well as certification for those who want to become professionals. Our aim is to build a strong and rich culture of 3D modelling to enrich the community’s understanding and ability. If you’re interested in CADing, come join us!
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> Event Based
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="https://t.me/bdo96">Brendan Ong</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  
+                  <a href="https://mechd.opensutd.org/">Website</a>
+                  <a href="https://m.facebook.com/MechDSUTD">Facebook</a>
+                  <a href="https://t.me/joinchat/HIkK0t_7Y-VgSNz1">Telegram</a>
+                  <a href="mailto:mech_d@club.sutd.edu.sg">Email</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Digital Design & Development Club (3DC)</h5>
+              <br/>
+              <p class="card-text">
+                <div class="align_para">
+                  <b>Description:</b> Digital Design & Development Club (3DC) is an official Fifth-Row club affiliated with ISTD Pillar at SUTD. We are also a Developer Student Club (DSC) supported by Google and a member of the OpenNodes Campus Collective. Developer Student Clubs are university-based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities.
+                </div>
+                <br/>
+                <b>Meeting Timings:</b> Event Based
+                <br/>
+                <br/>
+                <b>Contact:</b> <a href="https://t.me/rphly">Raphael Yee</a><br/><br/>
+                <b>Visit their:</b><br/>
+                  
+                  <a href="https://3dc.opensutd.org/">Website</a>
+                  <a href="https://www.youtube.com/channel/UCF56lQD1HWv-0uOQSXrTmLw">Youtube</a>
+                  <a href="https://t.me/joinchat/C_Nni1C77ZlOVTdjU4yf4Q">Telegram</a>
+                  <a href="https://www.twitch.tv/3dcdsc">Twitch</a>
+                  <a href="https://www.instagram.com/sutd3dc/">Instagram</a>
+                  <a href="https://github.com/3DCdsc">GitHub</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       
-      <p class="h1">
-        DiscoverFifthRows
+      <!--Sports-->
+      <div id="sports">
+        <h3>Sports</h3>
         <br/>
-       
-      </p>
-      <p class="text-left">
-        
-        Student Organisations in SUTD are either Fifth Rows, Probationary Clubs or Interest Groups. Student Organisations are clustered into one of 5 clusters: 
-      </p><br>
+        <p>Meet our very own fifth rows that consists of individuals who are enthusiatic about sports!</p>
+        <br/>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-3">
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/iolATEVek8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Ultimate Frisbee
+                </h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para"><b>Description:</b> 
+                    A family running and chasing after discs together. We welcome Frisbee players of all skill levels to join us; from training to just having fun together, the Ultimate Club goes far together. 
+                </div>
+                  <br/>
+                  <b>Meeting Timings:</b> <br/>
+                  Competitive team: Wednesdays 1930 - 2230<br/>
+                  Recreational: Fridays 1600 - 1900
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/Tanjiayue">Tan Jia Yue</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                  <a href="https://t.me/joinchat/Kdlp4-Er3pc1MDNl">Telegram</a>
+                    <a href="https://www.instagram.com/sutdultimate/">Instagram</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/X2cn43aFYtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">SUTD Judo</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para"><b>Description:</b>SUTD Judo club invites you to join us and learn some throws!
 
-      <ol class="text-left">
-        <br><br>
-        <li>Arts</li>
-        <li>Community</li>
-        <li>Culture</li>
-        <li>Makers</li>
-        <li>Sports</li> <br>
-      </ol>
-      <p class="text-left">
-
-        <br><br><br><br><br><br><br>
-        Eleifend lectus felis bibendum donec diam eget. Magna ac pharetra, mattis maecenas pretium in. Facilisis proin duis purus feugiat ut tincidunt sem nunc. Enim enim enim viverra tristique accumsan suspendisse. Viverra aliquet rutrum tempus placerat ornare.
-      </p>
-
-      <!-- Control buttons -->
-      
-        
-        <div id="myBtnContainer">
-          <filter class></filter>
-          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-          <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-          <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-          <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-          
+                    Judo - known as the gentle way, involves using the opponents force against themselves, using minimum effort to maximise efficiency.
+                    
+                    What can you expect? You can learn some self defense (throws and groundwork), acrobatics (rolling and cartwheels), and above all, have fun! 
+                    </div>
+                    <br/>
+                  <b>Meeting Timings:</b> Monday and Thursdays 7pm-10pm
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="mailto:judo@club.sutd.edu.sg">Valerie Lu</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                  
+                      <a href="https://t.me/sutdjudo2021">Telegram</a>
+                      <a href="http://instagram.com/sutdjudo">Instagram</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/xtopsha_OUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>              <div class="card-body">
+                <h5 class="card-title">SUTD Football</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> We are a family of recreational and competitive players who just want to have fun while sharing our love for football. We welcome anyone who is willing to learn and be part of a team, regardless of experience. Our competitive players can also engage in competitions like Singapore University Games and Diva La Futbol
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Tuesday & Thursday 8pm - 10pm
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/fauzxan">Mohammed Fauzaan</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                      <a href="https://t.me/joinchat/76R66ryT17E1YjY1">Telegram</a>
+                      <a href="https://www.instagram.com/fcsutd">Instagram</a>
+                      <a href=" https://vt.tiktok.com/ZSJpLS5pr/">TikTok</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/4e4vDY_66iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">SUTD KARATE</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> SUTD Karate hosts weekly training on campus, open to all members of SUTD. Trainings focuses on basic self-defence techniques, kumite drills and katas. The club also participate regularly in competition to ensure that members get a platform to interact with other karateka and hone their skills. Aside from the above, members also attend gradings a few times per year.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Tuesday 8pm-10pm, at Dance Studio 6&7
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="mailto:yixuan_tan@mymail.sutd.edu.sg">Tan Yi Xuan</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    <a href="https://t.me/joinchat/G0nrRJXb62_yeIxF">Telegram</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">SUTD Basketball</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> We are a group of passionate students who love to have fun and play basketball. All SUTD students are welcomed to join us! Everybody here is like a family member who always embraces and empowers each other, regardless of skills and experience.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Monday (Men&Women ) and Thursday (Men) 7.00-10.00pm
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="mailto:erick_chandra@mymail.sutd.edu.sg">Erick Chandra</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    <a href="https://www.instagram.com/sutdbasketball">Instagram</a>
+                    <a href="mailto:erick_chandra@mymail.sutd.edu.sg">Email</a>
+                    <a href="https://t.me/joinchat/bYHW1f_L_kAwYTFl">Telegram</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">SUTD Athletics
+                </h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> Platform to provide an opportunity for members to congregate and train together, maintaining and improving their cardiovascular fitness, endurance and speed for the purpose of representing the school
+                    in various national-level competitions.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Mondays and Wednesdays 6.30pm-8.30pm
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="mailto:pinnean_lai@mymail.sutd.edu.sg">Jeff Lai</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    
+                    <a href="https://t.me/sutdathletics2020">Telegram</a>
+                    <a href="https://www.instagram.com/sutd.athletics/">Instagram</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FVF1SHj__8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">SUTD Volleyball</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> SUTD Volleyball is a welcoming and friendly bunch of people who enjoy playing and improving at the sport of Volleyball! We welcome players of any skill levels, whether you're a fan of Haikyuu! or Ran Takahashi wanting to experience Volleyball yourself or an experienced player from past CCAs, we welcome you to join us! We have an experienced and super helpful coach who will teach you the basics of Volleyball such as digging and spiking the ball, and when you're ready, the more advanced stuff like strategies.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> <br/>
+                  Tuesday and Friday evenings: 7pm to 11pm
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/mandisloh">Mandis Loh</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    
+                    <a href="https://www.instagram.com/vballsutd/">Instagram</a>
+                    <a href="mailto:volleyball@club.sutd.edu.sg">Email</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <iframe width="600" height="400" src="https://www.youtube.com/embed/uJL51jBuT1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="card-img-top"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Electric Vehicle Club (EV)</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> EV club is a team of passionate individuals who dream, design, and build electric vehicles. We embark on automotive engineering projects at all levels, from reinforcing fundamentals by tweaking go-karts, to pushing boundaries, designing and 3d printing a full-sized electric vehicle. Together with our experienced club mentors and like-minded seniors, we build not only our knowledge but hands-on skills, seeking to continuously push boundaries as engineering students.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> <br/>
+                  Project-Based (Wednesdays and Fridays) at EV shed, EV store or IDer lab
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/expjk">Joshua Kwan</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    
+                    <a href="https://soar.opensutd.org">Website</a>
+                    <a href="https://www.instagram.com/sutdsoar/">Instagram</a>
+                    <a href="https://t.me/joinchat/zc3ZMdGWkhQyYzFl">Telegram</a>
+                    <a href="mailto:soar@club.sutd.edu.sg">Email</a>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mechanical Designer Club (MechD)</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> In MechD, we focus on computing-aided design (CAD) with software like Solidworks and Fusion360. We teach how to design models and products that you can 3D print. Additionally, we provide both beginner and advanced workshops for everyone as well as certification for those who want to become professionals. Our aim is to build a strong and rich culture of 3D modelling to enrich the community’s understanding and ability. If you’re interested in CADing, come join us!
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Event Based
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/bdo96">Brendan Ong</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    
+                    <a href="https://mechd.opensutd.org/">Website</a>
+                    <a href="https://m.facebook.com/MechDSUTD">Facebook</a>
+                    <a href="https://t.me/joinchat/HIkK0t_7Y-VgSNz1">Telegram</a>
+                    <a href="mailto:mech_d@club.sutd.edu.sg">Email</a>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Digital Design & Development Club (3DC)</h5>
+                <br/>
+                <p class="card-text">
+                  <div class="align_para">
+                    <b>Description:</b> Digital Design & Development Club (3DC) is an official Fifth-Row club affiliated with ISTD Pillar at SUTD. We are also a Developer Student Club (DSC) supported by Google and a member of the OpenNodes Campus Collective. Developer Student Clubs are university-based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities.
+                  </div>
+                  <br/>
+                  <b>Meeting Timings:</b> Event Based
+                  <br/>
+                  <br/>
+                  <b>Contact:</b> <a href="https://t.me/rphly">Raphael Yee</a><br/><br/>
+                  <b>Visit their:</b><br/>
+                    
+                    <a href="https://3dc.opensutd.org/">Website</a>
+                    <a href="https://www.youtube.com/channel/UCF56lQD1HWv-0uOQSXrTmLw">Youtube</a>
+                    <a href="https://t.me/joinchat/C_Nni1C77ZlOVTdjU4yf4Q">Telegram</a>
+                    <a href="https://www.twitch.tv/3dcdsc">Twitch</a>
+                    <a href="https://www.instagram.com/sutd3dc/">Instagram</a>
+                    <a href="https://github.com/3DCdsc">GitHub</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
 
-      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-          <div class="container">
-          <div class="filterDiv cars">BMW</div>
-          <div class="filterDiv colors fruits">Orange</div>
-          <div class="filterDiv cars">Volvo</div>
-          <div class="filterDiv colors">Red</div>
-          <div class="filterDiv cars animals">Mustang</div>
-          <div class="filterDiv colors">Blue</div>
-          <div class="filterDiv animals">Cat</div>
-          <div class="filterDiv animals">Dog</div>
-          <div class="filterDiv fruits">Melon</div>
-          <div class="filterDiv fruits animals">Kiwi</div>
-          <div class="filterDiv fruits">Banana</div>
-          <div class="filterDiv fruits">Lemon</div>
-          <div class="filterDiv animals">Cow</div>
-        </div>
-      
-      </body>
+    </section>
 
 
-      </html>
+</body>
+
+
+</html>
