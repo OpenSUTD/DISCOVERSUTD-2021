@@ -22,23 +22,24 @@
 
     <!-- include bootstrap-->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- included css style folders here-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/supper.css">
     
     <!-- iOS Splashscreens Package -->
-    <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="/assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
     <link href="/assets/media/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
@@ -72,52 +73,882 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-               <img src="assets/favicon.ico" alt="Logo" style="width:50px;"></a>
-          </div>
-          <ul class="nav navbar-right">
-            <li class="navbar-brand"><a href="fifthrows.html"><span style="color:white">FIFTH ROWS</span></a></li>
-            <li class="navbar-brand"><a href="Human_Library.html"><span style="color:white"> HUMAN LIBRARY</span></a></li>
-            <li class="navbar-brand"><a href="supper.html"><span style="color:white">SUPPER</span></a></li>
-            <li class="navbar-brand"><a href="lab_sessions.html"><span style="color:white"> LAB SESSIONS</span></a></li>
-            <li></li>
+    <div id="topnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/favicon.ico" alt="Logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="fifthrows.html">FIFTH ROWS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Human_Library.html">HUMAN LIBRARY</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Supper.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SUPPER
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#16 sept">16/09/21</a>
+                <a class="dropdown-item" href="#20 sept">20/09/21</a>
+                <a class="dropdown-item" href="#21 sept">21/09/21</a>
+                <a class="dropdown-item" href="#22 sept">22/09/21</a>
+                <a class="dropdown-item" href="#23 sept">23/09/21</a>
+                <a class="dropdown-item" href="#27 sept">27/09/21</a>
+                <a class="dropdown-item" href="#28 sept">28/09/21</a>
+                <a class="dropdown-item" href="#29 sept">29/09/21</a>
+                <a class="dropdown-item" href="#30 sept">30/09/21</a>
+              </div>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="lab_sessions.html">LAB SESSIONS</a>
+            </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- HOME PAGE PART 1 (GUIDE, copy this template)-->
-      <h1 class="h1">
-        Supper with Seniors<br/> 
-          
-      </h1>
-      <br/>
-      
-      <p class="text-left">
-        <b>Someone said supper?</b><br/> 
-        Yes you heard that right! We will be providing supper most days of the week to encourage Freshmores to stay for workshops and activities after class.<br/>
-        <br/>
-        Also we hope that having the cohort gather regularly might help in building a stronger community through encouraging people to share about their day, hopes and experiences at SUTD.<br/>
-        <br/>
-        Since you’ll be having Supper with Seniors, do look forward to learn something new from them!
- 
-        <br/>
-        <p id="rcorners2"> 
-          Register <b>HERE</b> <br/>
-          Dates: 16,20,21,22,23,27,28,29 <br/>
-          Time: 8:30pm -10pm <br/>
-          Venue: Multi-Purpose Hall 1 & 2
+      <!-- Start of section-->
+      <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Supper With Seniors</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Someone said Supper?</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#registration">REGISTER</a>
+                </div>
+            </div>
+        </header>
         
-        </p>
-      </p>
-      
-      
+        <div class="container">
+          <h1 style="padding-top: 50px; color: #800;">
+            DiscoverPeople
+          </h1>
+          <p style="font-size: 25px;">Yes you heard that right! We will be providing supper most days of the week to encourage Freshmores to stay for workshops and activities after class.
+
+            Also we hope that having the cohort gather regularly might help in building a stronger community through encouraging people to share about their day, hopes and experiences at SUTD. 
+            
+            Since you’ll be having Supper with Seniors, do look forward to learn something new from them!
+            
+            <section id="registration">
+              <h3>Registration</h3>
+              <br/>
+              <p style="font-size: 20px;">
+                <b>Location:</b> Dance Studio 1,2 / Dance Studio 3,4,5/ <a href="https://discord.gg/s2D4aKhv">Discord (Live-stream !)</a> <br/>
+                <br/>
+                <b>Date: Every Mon, Tues, Weds, & Thurs
+                  from 16 Sept till 30 Sept</b> <br/>
+                <b>Time:</b> 8:30pm - 10:00pm <br/>
+              
+                <!--TODO add the link here! in href-->
+                <a href="https://forms.office.com/r/tUu9eL3C6M"><span style="color: #800;">FIRST COME FIRST SERVE! REGISTER HERE!</span></a>
+              </p>
+            </section>
+            <br/>
+
+              <h3>Seniors attending Supper </h3>
+              <br/>
+
+              <section id="16 sept">
+              <h2>16/9</h2>
+              <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1aqMVUTCgsJB2z3M9SBm6JxrEIBuwXg3prZ2gf346 (1).png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarah Chua</h5>
+                      <p class="card-text">I love supper (that's why I'm here!), not just for the good food but for the good chat too. I'm in Tchoukball, ROOT and Productions so feel free just chat if you wanna know more. 
+
+                        Tip: Make full use of the Term 1 pass/fail to explore school life .</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1dC1MeGP5svl72h-oiLqFDAe9AWMMn--NkLMlIbzh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ragul Balaji</h5>
+                      <p class="card-text">Ragul likes to make things. Talk to him about Robotics, Cybersec CTFs, Minecraft or anything!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1NMUzpByn1_ewJy1Y1O3hnW5WEzVEIkArxsKtgk75.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Natalie Lim</h5>
+                      <p class="card-text">Heyoo im nat! I like to be adventurous and try new things so thats what i did in SUTD. I was in cheer but then I grew too old for it ;( so then I found new things to do like becoming the EPD student rep, OGL stuff and various SUTD marketing things. 
+                        Now, I just started working at Shopee as a Product Manager, so hmu if you want to know more about that as well. I'd like to think I'm pretty friendly so dont worry and come chat with me!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2020-12-22_06-15-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chester Koh</h5>
+                      <p class="card-text">Hi! I'm a ISTD PhD student starting this Sept. I just graduated from ISTD last week! 
+
+                        My specialisation is in Computer Networks & Cloud Computing. I have been very involved in fifth rows such as NihonGo (the Japanese Cultural Club) and 3DC (Digital Design and Development) and helping out in SUTD events such as Virtual Open House.
+                        
+                        I strongly believe that SUTD is a place where you learn best by doing crazy things, not mugging. If you are like me and have a tendency to do wild, come talk to me and I can share about my craziest experiences in SUTD!</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+              <br/>
+              <br/>
+              <section id="20 sept">
+                <h2 style="color: #800;">20/9</h2>
+                <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1aMLyaYiYV4EG8fl0BJ8bkS_EQoshTfa1ArMmJkKi.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peter</h5>
+                      <p class="card-text">Peter is a stong believer in trying new things, always challenging himself to learn new skills from those around him. Open to talking about anything design related from Adobe Premiere, Photoshop to Interior Design & Architecture.
+
+                        He was also a TA for Design for the 2020 Freshies so feel free to talk to him about what freshie life is like or if you're interested to know more about ASD!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">James Raphael Tiovalen</h5>
+                      <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                        He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1Mxk4U5LE68mMKNxXssQpw9S3b5ZZXf5FYQE0qfKx.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Yong Kang</h5>
+                      <p class="card-text">yong kang is a wacky guy that is always down for some crazy ass talk. you can hit him up in the gym at anytime except for night but his usual timings are monday weds fridays at 7am. 
+
+                        Yong kang is also passionate about coding, software engineering and machine learning and startups. he is currently an intern at rakuten viki and a cofounder of a digital mentoring app matchin</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1xdU9KgpBehNz_fhYJtcW7c9EVHxaFRF6JbjgbVcH.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joseph Low</h5>
+                      <p class="card-text">Joseph has been into the coffee hobby for the past 4 years or so and has a little side hustle refurbishing and reselling coffee equipment as well as conducting home barista workshops. He started and is currently running the Changi Coffee Corner Interest Group in SUTD so hit him up for coffee anytime. 
+
+                        Joseph aims to learn the skills to become a CPO/CTO that can help non-technical founders make their vision a reality. His previous exepriences are in UX design, consulting and as a scrum master. Currently he is exploring product management in a DeFI analytics startup. Talk to him about UI/UX, Product Management, DeFi and Blockchain. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1wb9iRMHTjHtcyaKj9VBF3K43LTOUjPPSdfVTB8TJ.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alexander James Fonseca</h5>
+                      <p class="card-text">Alex has difficulty describing himself in third-person, so I'm just gonna use first-person.
+
+                        Holla! I'm Alex, a MNEED Dual Masters student. I've just returned from a 9 month IC Design course in Taiwan's Chang Gung University, and I'm now lurking the labs doing drone battery things. Before that, I was a scrub in the EPD Robotics Track with too many Fifth Rows for his own good.
+                        
+                        Stuff that tickles my pickles: 
+                        - Presenting, public speaking, emceeing. And also a little writing.
+                        - DnD (did you know we have an SUTDnD group?)
+                        - Food. I love food and am filled with a chonky spirit.
+                        - Complaining about SUTD like the boomer I am.
+                        - History, politics, and geography.
+                        - Whiskey. Especially of the Islay variety.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+          </section>
+          <br/>
+          <br/>
+          <section id= "21 sept">
+            <h2 style="color: #800;">21/9</h2>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1dC1MeGP5svl72h-oiLqFDAe9AWMMn--NkLMlIbzh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ragul Balaji</h5>
+                      <p class="card-text">Ragul likes to make things. Talk to him about Robotics, Cybersec CTFs, Minecraft or anything
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">James Raphael Tiovalen</h5>
+                      <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                        He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1Mxk4U5LE68mMKNxXssQpw9S3b5ZZXf5FYQE0qfKx.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Yong Kang</h5>
+                      <p class="card-text">yong kang is a wacky guy that is always down for some crazy ass talk. you can hit him up in the gym at anytime except for night but his usual timings are monday weds fridays at 7am. 
+
+                        Yong kang is also passionate about coding, software engineering and machine learning and startups. he is currently an intern at rakuten viki and a cofounder of a digital mentoring app matchin</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1xdU9KgpBehNz_fhYJtcW7c9EVHxaFRF6JbjgbVcH.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joseph Low</h5>
+                      <p class="card-text">Joseph has been into the coffee hobby for the past 4 years or so and has a little side hustle refurbishing and reselling coffee equipment as well as conducting home barista workshops. He started and is currently running the Changi Coffee Corner Interest Group in SUTD so hit him up for coffee anytime. 
+
+                        Joseph aims to learn the skills to become a CPO/CTO that can help non-technical founders make their vision a reality. His previous exepriences are in UX design, consulting and as a scrum master. Currently he is exploring product management in a DeFI analytics startup. Talk to him about UI/UX, Product Management, DeFi and Blockchain. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-09-03_20-17-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Timonthy Liu</h5>
+                      <p class="card-text">I am is a first-year ISTD PhD student working on natural language processing (NLP) and deep learning. I graduated from SUTD (ISTD) last year. Feel free to talk to me about ISTD, UROP or anything that interests you!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+              <br/>
+              <br/>
+              <section id="22 sept">
+                <h2 style="color: #800;">22/9</h2>
+                <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1aMLyaYiYV4EG8fl0BJ8bkS_EQoshTfa1ArMmJkKi.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peter</h5>
+                      <p class="card-text">Peter is a stong believer in trying new things, always challenging himself to learn new skills from those around him. Open to talking about anything design related from Adobe Premiere, Photoshop to Interior Design & Architecture.
+
+                        He was also a TA for Design for the 2020 Freshies so feel free to talk to him about what freshie life is like or if you're interested to know more about ASD!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\20191203_142121 copy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sean Gunawan</h5>
+                      <p class="card-text">Sean is a current ISTD student who likes to tinker with both software and hardware, and to get involved in various kinds of stuff from helping to manage Fifth Rows (NihonGo and Wind Ensemble) to TAing juniors to making academics-related memes.
+
+                        Talk to him about pretty much anything!</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1wb9iRMHTjHtcyaKj9VBF3K43LTOUjPPSdfVTB8TJ.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alexander James Fonseca</h5>
+                      <p class="card-text">Alex has difficulty describing himself in third-person, so I'm just gonna use first-person.
+
+                        Holla! I'm Alex, a MNEED Dual Masters student. I've just returned from a 9 month IC Design course in Taiwan's Chang Gung University, and I'm now lurking the labs doing drone battery things. Before that, I was a scrub in the EPD Robotics Track with too many Fifth Rows for his own good.
+                        
+                        Stuff that tickles my pickles: 
+                        - Presenting, public speaking, emceeing. And also a little writing.
+                        - DnD (did you know we have an SUTDnD group?)
+                        - Food. I love food and am filled with a chonky spirit.
+                        - Complaining about SUTD like the boomer I am.
+                        - History, politics, and geography.
+                        - Whiskey. Especially of the Islay variety.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2020-12-22_06-15-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chester Koh</h5>
+                      <p class="card-text">Hi! I'm a ISTD PhD student starting this Sept. I just graduated from ISTD last week! 
+
+                        My specialisation is in Computer Networks & Cloud Computing. I have been very involved in fifth rows such as NihonGo (the Japanese Cultural Club) and 3DC (Digital Design and Development) and helping out in SUTD events such as Virtual Open House.
+                        
+                        I strongly believe that SUTD is a place where you learn best by doing crazy things, not mugging. If you are like me and have a tendency to do wild, come talk to me and I can share about my craziest experiences in SUTD!</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+              <br/>
+              <br/>
+              <section id="23 sept">
+              <h2>23/9</h2>
+              <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-09-03_20-17-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Timonthy Liu</h5>
+                      <p class="card-text">I am is a first-year ISTD PhD student working on natural language processing (NLP) and deep learning. I graduated from SUTD (ISTD) last year. Feel free to talk to me about ISTD, UROP or anything that interests you!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1dC1MeGP5svl72h-oiLqFDAe9AWMMn--NkLMlIbzh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ragul Balaji</h5>
+                      <p class="card-text">Ragul likes to make things. Talk to him about Robotics, Cybersec CTFs, Minecraft or anything
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">James Raphael Tiovalen</h5>
+                      <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                        He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1hHSXsiJn1DMY6tb7lYGt8UXqPQNHLT2cIu5mIwdt.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chole</h5>
+                      <p class="card-text">Chloe loves to create and has a strong passion for the arts. Her love for creating is often showcased in her hobbies like cooking and sewing. Furthermore, her passion for the arts has also pushed her to be a part of SUTD's Chamber (string ensemble) and Band fifth row.
+
+                        If you have any interests in the performing arts fifth rows in SUTD do not be shy to ask her anything! Or if you just want someone to talk to she is always open to listening to any worries!
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1y6RP1hE0HBeApUWFfDaLkSlA6wyuAWy2k-8alTET.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joshua</h5>
+                      <p class="card-text">Joshua is a Term 3 Student who comes from a JC background. Having recently gone through the first two terms you can approach him for any infromation regarding settling in to SUTD. 
+
+                        He is also a Teaching Assistant for Physical world so if you have any questions about what to expect you can feel free to inquire.
+                        
+                        Furthermore he is the President of the Cuesport Fifthrow and Vice President of the Drama Fifthrow if you have any inquiries about those types of fifthrow.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+              <br/>
+              <br/>
+
+              <section id="27 sept">
+                <h2 style="color: #800;">27/9</h2>
+                <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Melody</h5>
+                        <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
   
+                          From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                         
+                         She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Raasheeda Fathima</h5>
+                        <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+  
+                          She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                          
+                          Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">James Raphael Tiovalen</h5>
+                        <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                          He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\1Mxk4U5LE68mMKNxXssQpw9S3b5ZZXf5FYQE0qfKx.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Yong Kang</h5>
+                        <p class="card-text">yong kang is a wacky guy that is always down for some crazy ass talk. you can hit him up in the gym at anytime except for night but his usual timings are monday weds fridays at 7am. 
+  
+                          Yong kang is also passionate about coding, software engineering and machine learning and startups. he is currently an intern at rakuten viki and a cofounder of a digital mentoring app matchin</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\1xdU9KgpBehNz_fhYJtcW7c9EVHxaFRF6JbjgbVcH.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Joseph Low</h5>
+                        <p class="card-text">Joseph has been into the coffee hobby for the past 4 years or so and has a little side hustle refurbishing and reselling coffee equipment as well as conducting home barista workshops. He started and is currently running the Changi Coffee Corner Interest Group in SUTD so hit him up for coffee anytime. 
+  
+                          Joseph aims to learn the skills to become a CPO/CTO that can help non-technical founders make their vision a reality. His previous exepriences are in UX design, consulting and as a scrum master. Currently he is exploring product management in a DeFI analytics startup. Talk to him about UI/UX, Product Management, DeFi and Blockchain. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\1aMLyaYiYV4EG8fl0BJ8bkS_EQoshTfa1ArMmJkKi.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Peter</h5>
+                        <p class="card-text">Peter is a stong believer in trying new things, always challenging himself to learn new skills from those around him. Open to talking about anything design related from Adobe Premiere, Photoshop to Interior Design & Architecture.
+  
+                          He was also a TA for Design for the 2020 Freshies so feel free to talk to him about what freshie life is like or if you're interested to know more about ASD!</p>
+                      </div>
+                    </div>
+                  </div>
 
-      
-</body>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <img src="assets\images\supper\1wb9iRMHTjHtcyaKj9VBF3K43LTOUjPPSdfVTB8TJ.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Alexander James Fonseca</h5>
+                        <p class="card-text">Alex has difficulty describing himself in third-person, so I'm just gonna use first-person.
+  
+                          Holla! I'm Alex, a MNEED Dual Masters student. I've just returned from a 9 month IC Design course in Taiwan's Chang Gung University, and I'm now lurking the labs doing drone battery things. Before that, I was a scrub in the EPD Robotics Track with too many Fifth Rows for his own good.
+                          
+                          Stuff that tickles my pickles: 
+                          - Presenting, public speaking, emceeing. And also a little writing.
+                          - DnD (did you know we have an SUTDnD group?)
+                          - Food. I love food and am filled with a chonky spirit.
+                          - Complaining about SUTD like the boomer I am.
+                          - History, politics, and geography.
+                          - Whiskey. Especially of the Islay variety.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </section>
+                <br/>
+                <br/>
+
+                <section id="28 sept">
+                  <h2 style="color: #800;">28/9</h2>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1dC1MeGP5svl72h-oiLqFDAe9AWMMn--NkLMlIbzh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ragul Balaji</h5>
+                      <p class="card-text">Ragul likes to make things. Talk to him about Robotics, Cybersec CTFs, Minecraft or anything
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">James Raphael Tiovalen</h5>
+                      <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                        He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1Mxk4U5LE68mMKNxXssQpw9S3b5ZZXf5FYQE0qfKx.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Yong Kang</h5>
+                      <p class="card-text">yong kang is a wacky guy that is always down for some crazy ass talk. you can hit him up in the gym at anytime except for night but his usual timings are monday weds fridays at 7am. 
+
+                        Yong kang is also passionate about coding, software engineering and machine learning and startups. he is currently an intern at rakuten viki and a cofounder of a digital mentoring app matchin</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1xdU9KgpBehNz_fhYJtcW7c9EVHxaFRF6JbjgbVcH.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joseph Low</h5>
+                      <p class="card-text">Joseph has been into the coffee hobby for the past 4 years or so and has a little side hustle refurbishing and reselling coffee equipment as well as conducting home barista workshops. He started and is currently running the Changi Coffee Corner Interest Group in SUTD so hit him up for coffee anytime. 
+
+                        Joseph aims to learn the skills to become a CPO/CTO that can help non-technical founders make their vision a reality. His previous exepriences are in UX design, consulting and as a scrum master. Currently he is exploring product management in a DeFI analytics startup. Talk to him about UI/UX, Product Management, DeFi and Blockchain. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-09-03_20-17-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Timonthy Liu</h5>
+                      <p class="card-text">I am is a first-year ISTD PhD student working on natural language processing (NLP) and deep learning. I graduated from SUTD (ISTD) last year. Feel free to talk to me about ISTD, UROP or anything that interests you!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+              <br/>
+              <br/>
+              <section id="29 sept">
+                <h2 style="color: #800;">29/9</h2>
+                <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1aMLyaYiYV4EG8fl0BJ8bkS_EQoshTfa1ArMmJkKi.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peter</h5>
+                      <p class="card-text">Peter is a stong believer in trying new things, always challenging himself to learn new skills from those around him. Open to talking about anything design related from Adobe Premiere, Photoshop to Interior Design & Architecture.
+
+                        He was also a TA for Design for the 2020 Freshies so feel free to talk to him about what freshie life is like or if you're interested to know more about ASD!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1wb9iRMHTjHtcyaKj9VBF3K43LTOUjPPSdfVTB8TJ.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alexander James Fonseca</h5>
+                      <p class="card-text">Alex has difficulty describing himself in third-person, so I'm just gonna use first-person.
+
+                        Holla! I'm Alex, a MNEED Dual Masters student. I've just returned from a 9 month IC Design course in Taiwan's Chang Gung University, and I'm now lurking the labs doing drone battery things. Before that, I was a scrub in the EPD Robotics Track with too many Fifth Rows for his own good.
+                        
+                        Stuff that tickles my pickles: 
+                        - Presenting, public speaking, emceeing. And also a little writing.
+                        - DnD (did you know we have an SUTDnD group?)
+                        - Food. I love food and am filled with a chonky spirit.
+                        - Complaining about SUTD like the boomer I am.
+                        - History, politics, and geography.
+                        - Whiskey. Especially of the Islay variety.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              
+            <div class="col mb-4">
+              <div class="card">
+                <img src="assets\images\supper\1NMUzpByn1_ewJy1Y1O3hnW5WEzVEIkArxsKtgk75.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Natalie Lim</h5>
+                  <p class="card-text">Heyoo im nat! I like to be adventurous and try new things so thats what i did in SUTD. I was in cheer but then I grew too old for it ;( so then I found new things to do like becoming the EPD student rep, OGL stuff and various SUTD marketing things. 
+                    Now, I just started working at Shopee as a Product Manager, so hmu if you want to know more about that as well. I'd like to think I'm pretty friendly so dont worry and come chat with me!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="assets\images\supper\photo_2020-12-22_06-15-03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chester Koh</h5>
+                  <p class="card-text">Hi! I'm a ISTD PhD student starting this Sept. I just graduated from ISTD last week! 
+
+                    My specialisation is in Computer Networks & Cloud Computing. I have been very involved in fifth rows such as NihonGo (the Japanese Cultural Club) and 3DC (Digital Design and Development) and helping out in SUTD events such as Virtual Open House.
+                    
+                    I strongly believe that SUTD is a place where you learn best by doing crazy things, not mugging. If you are like me and have a tendency to do wild, come talk to me and I can share about my craziest experiences in SUTD!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card">
+                <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Melody</h5>
+                  <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                    From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                   
+                   She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Raasheeda Fathima</h5>
+                  <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                    She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                    
+                    Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </section>
+          <br/>
+          <br/>
+          <section id="30 sept">
+            <h2 style="color: #800;">30/9</h2>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1dC1MeGP5svl72h-oiLqFDAe9AWMMn--NkLMlIbzh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ragul Balaji</h5>
+                      <p class="card-text">Ragul likes to make things. Talk to him about Robotics, Cybersec CTFs, Minecraft or anything
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1hHSXsiJn1DMY6tb7lYGt8UXqPQNHLT2cIu5mIwdt.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chole</h5>
+                      <p class="card-text">Chloe loves to create and has a strong passion for the arts. Her love for creating is often showcased in her hobbies like cooking and sewing. Furthermore, her passion for the arts has also pushed her to be a part of SUTD's Chamber (string ensemble) and Band fifth row.
+
+                        If you have any interests in the performing arts fifth rows in SUTD do not be shy to ask her anything! Or if you just want someone to talk to she is always open to listening to any worries!
+
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1y6RP1hE0HBeApUWFfDaLkSlA6wyuAWy2k-8alTET.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joshua</h5>
+                      <p class="card-text">Joshua is a Term 3 Student who comes from a JC background. Having recently gone through the first two terms you can approach him for any infromation regarding settling in to SUTD. 
+
+                        He is also a Teaching Assistant for Physical world so if you have any questions about what to expect you can feel free to inquire.
+                        
+                        Furthermore he is the President of the Cuesport Fifthrow and Vice President of the Drama Fifthrow if you have any inquiries about those types of fifthrow.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-02-15_09-10-57.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melody</h5>
+                      <p class="card-text">Melody is a strong advocate for trying everything that you can. Famously known as caramel_melmel.
+
+                        From technical to non-technical stuff, she can talk about anything related to UI/UX, javascript and some dev stuff and the hooks around school life, many more to come.
+                       
+                       She was also a TA for Design for the 2020 freshmores and will also be the TA for Data Driven World for the term 3 fresh-no mores. Feel free to fire away questions about life choices and also hit her up for brawl stars :D </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\1KmC0jRD2y3iMeekEJlZYa5-Wk9Xs9reLOScDFueP.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raasheeda Fathima</h5>
+                      <p class="card-text">Raash is a very sporty person who loves picking up new sports during her free time.Part of SUTD's Floorball team, she can give you tips and tricks on how to juggle school life and fifth row commitment. 
+
+                        She can give advice how to handle school in the new norm of the covid 19 pendemic 
+                        
+                        Currently an ISTD junior, she is well known to be a front end developer and loves anything to do with UI/UX! Want to know more about SUTD life and more, come join in!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\photo_2021-09-03_20-17-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Timonthy Liu</h5>
+                      <p class="card-text">I am is a first-year ISTD PhD student working on natural language processing (NLP) and deep learning. I graduated from SUTD (ISTD) last year. Feel free to talk to me about ISTD, UROP or anything that interests you!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="assets\images\supper\jamestiotio_profile_picture.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">James Raphael Tiovalen</h5>
+                      <p class="card-text">James is a strong advocate for open-source and he is involved in various side projects. If there is something wrong with the system, he is usually there to try and fix it. 
+                        He is open to talk about OpenSUTD, academics, food, technology, corny jokes, memes, or university and hostel life in general. He likes to explore random ideas, connect the dots between random concepts and tinker with random technologies, just because it's fun.</p>
+                    </div>
+                  </div>
+                </div>
 
 
-</html>
+                </div>
+
+              </section>
+
+            </div>
+
+
+            
+
+
+
+
+
+
+
+
+             
