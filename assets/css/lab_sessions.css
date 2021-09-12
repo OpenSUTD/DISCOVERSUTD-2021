@@ -31,7 +31,7 @@ html{
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -41,7 +41,7 @@ html{
   .masthead {
     padding: 15rem 0 1rem 0;
     min-height: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 35%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -52,7 +52,7 @@ html{
   .masthead {
     padding: 15rem 0 1rem 0;
     min-height: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 38%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -63,7 +63,7 @@ html{
   .masthead {
     padding: 15rem 0 1rem 0;
     min-height: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 40%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -74,7 +74,7 @@ html{
   .masthead {
     padding: 15rem 0 2rem 0;
     min-height: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 40%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -85,7 +85,7 @@ html{
   .masthead {
     padding: 15rem 0 2rem 0;
     min-height: 6rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 45%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -96,7 +96,7 @@ html{
   .masthead {
     padding: 15rem 0 3rem 0;
     min-height: 8rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 50%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -107,7 +107,7 @@ html{
   .masthead {
     padding: 15rem 0 3rem 0;
     min-height: 8rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 40%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -118,7 +118,7 @@ html{
   .masthead {
     padding: 15rem 0 5rem 0;
     min-height: 10rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 40%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -129,7 +129,7 @@ html{
   .masthead {
     padding: 15rem 0 8rem 0;
     min-height: 15rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 50%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -140,7 +140,7 @@ html{
   .masthead {
     padding: 15rem 0 12rem 0;
     min-height: 20rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 60%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -149,7 +149,7 @@ html{
 }
 @media (min-width: 750px) and (max-width: 845px) {
   .masthead {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 80%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -158,7 +158,7 @@ html{
 }
 @media (min-width: 845px) and (max-width: 930px) {
   .masthead {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/labs.jpg");
     background-position: center 80%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -219,6 +219,7 @@ h2{
 }
 section{
     padding-left: 45px;
+    padding-right: 45px;
 }
 h3{
     background: linear-gradient(to right, #525faa 100%, #330867 100%);
@@ -228,6 +229,7 @@ h3{
     animation-name: labname;
     animation-duration: 0.25s;
     animation-iteration-count: infinite;
+    font-size: "Comfortaa";
 }
 @keyframes labname {
     from{
@@ -243,3 +245,8 @@ h3{
 }
 
 /*containerising the lab*/
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
