@@ -37,9 +37,137 @@ html{
     background-attachment: scroll;
     background-size: cover;
   }
+  @media (max-width: 85px) {
+    .masthead {
+      padding: 15rem 0 1rem 0;
+      min-height: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 35%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 85px) and (max-width: 125px) {
+    .masthead {
+      padding: 15rem 0 1rem 0;
+      min-height: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 38%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 125px) and (max-width: 150px) {
+    .masthead {
+      padding: 15rem 0 1rem 0;
+      min-height: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 40%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 150px) and (max-width: 200px) {
+    .masthead {
+      padding: 15rem 0 2rem 0;
+      min-height: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 40%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 200px) and (max-width: 300px) {
+    .masthead {
+      padding: 15rem 0 2rem 0;
+      min-height: 6rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 45%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 346px) {
+    .masthead {
+      padding: 15rem 0 3rem 0;
+      min-height: 8rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 50%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 346px) and (max-width: 400px) {
+    .masthead {
+      padding: 15rem 0 3rem 0;
+      min-height: 8rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 40%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 400px) and (max-width: 500px) {
+    .masthead {
+      padding: 15rem 0 5rem 0;
+      min-height: 10rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 40%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 615px) {
+    .masthead {
+      padding: 15rem 0 8rem 0;
+      min-height: 15rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 50%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 615px) and (max-width: 750px) {
+    .masthead {
+      padding: 15rem 0 12rem 0;
+      min-height: 20rem;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 60%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 750px) and (max-width: 845px) {
+    .masthead {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 80%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
+  @media (min-width: 845px) and (max-width: 930px) {
+    .masthead {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/human_lib_abt.jpeg");
+      background-position: center 80%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    }
+  }
   .masthead h1 {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 60px;
+    font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.726), rgba(238, 231, 231, 0.664));
@@ -48,8 +176,29 @@ html{
             background-clip: text;
   }
   .masthead h2 {
-    max-width: 40rem;
-    font-size: 30px;
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    .masthead h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
   }
   .btn-primary{
     color: #fff;
@@ -66,6 +215,7 @@ html{
 /* section area*/
 h2{
     color:#800;
+    margin: auto auto;
 }
 section{
     padding-left: 45px;
@@ -75,6 +225,7 @@ h3{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
         background-clip: text;
+    margin-left: 10px;
 }
 
 /*profile card*/
