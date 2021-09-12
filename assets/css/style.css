@@ -229,8 +229,8 @@ html{
     color: #ffffff;
     background: #800000;
     padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 12px;
     text-align: center;
     text-decoration: none;
