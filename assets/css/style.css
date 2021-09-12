@@ -199,7 +199,7 @@ html{
   }
   .image_guide {
     position: relative;
-    padding-top: 10%;
+    padding-top: 22%;
     text-align: center;
     color:white;
     font-size: large;
@@ -266,6 +266,20 @@ html{
       border-color: #800000;
       border-radius: 20px;
    
+  }
+
+  .pillar_btn{
+    
+    background: #ffffff;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
   }
 
   /*
@@ -354,6 +368,7 @@ section{
   color: #777;
   font-size: 12px;
   padding: 10px;
+  font-family: Comfortaa;
 }
 
 
@@ -448,4 +463,33 @@ footer{
       line-height: inherit;
   }
 
+}
+
+/*For the calendar responsiveness */
+@media (max-width: 550px) {
+   .big-container {
+       display: none;
+   }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
