@@ -219,6 +219,7 @@ h2{
 }
 section{
     padding-left: 45px;
+    padding-right:45px;
 }
 h3{
     background: linear-gradient(to right, #525faa 100%, #330867 100%);
@@ -228,6 +229,7 @@ h3{
     animation-name: labname;
     animation-duration: 0.25s;
     animation-iteration-count: infinite;
+    font-family: 'Comfortaa';
 }
 @keyframes labname {
     from{
@@ -243,3 +245,6 @@ h3{
 }
 
 /*containerising the lab*/
+img {
+  border: 5px solid #555;
+}
