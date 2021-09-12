@@ -291,6 +291,10 @@ h3{
     transform: rotate(5deg) scale(1.1, 1.1);
     filter: brightness(110%);
 }
+.faith_card:hover img {
+  transform: rotate(5deg) scale(1.1, 1.1);
+  filter: brightness(70%);
+}
 
 /*speakers */
 img.katherine{
