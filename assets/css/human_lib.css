@@ -293,7 +293,7 @@ h3{
 }
 .faith_card:hover img {
   transform: rotate(5deg) scale(1.1, 1.1);
-  filter: brightness(70%);
+  filter: brightness(60%);
 }
 
 /*speakers */
@@ -302,7 +302,7 @@ filter:blur(0.5px) brightness(81%);
 }
 
 img.faith{
-    filter: brightness(70%)
+    filter: brightness(60%)
 }
 img.edwin{
     filter:brightness(70%);
