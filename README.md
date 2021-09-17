@@ -38,8 +38,6 @@ You can also refer to the wiki here if you are interested to find out more.
 [Huang He](https://github.com/MarkHershey) <br />
 [Leong Yun Qin Melody](https://github.com/caramelmelmel) <br />
 
-### Supper sponsors
-Alexandra James Fonseca
 
 We would also like to thank the OpenSUTD community for making this event happen
 
