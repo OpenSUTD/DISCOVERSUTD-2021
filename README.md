@@ -24,8 +24,8 @@ You can also refer to the wiki here if you are interested to find out more.
 
 ## Team members
 [Emily Law](https://github.com/castlemas) Supper, Website and Lab Sessions<br />
-[Hariz Bin Roslan](https://github.com/hariz-wrts) Human Library<br />
-[Joseph Low](https://github.com/jolow99) Fifth Rows and Pillars<br />
+[Hariz Bin Roslan](https://github.com/hariz-wrts) Human Library <br />
+[Joseph Low](https://github.com/jolow99) Fifth Rows and Pillars <br />
 [Tan Jia Yue](https://github.com/makehahaz) Fifth Rows admin <br />
 [Chia Yong Kang](https://github.com/ExtremelySunnyYK) Fifth Rows Github issues <br />
 
@@ -35,7 +35,7 @@ You can also refer to the wiki here if you are interested to find out more.
 
 ### Seniors who helped
 [Shyam Sridhar](https://github.com/SHSR2001) Proposal and email vetting <br />
-[Huang He](https://github.com/MarkHershey) email vetting and p<br />
+[Huang He](https://github.com/MarkHershey) email vetting and proposal vetting<br />
 [Leong Yun Qin Melody](https://github.com/caramelmelmel) Website, email vetting and proposal vetting <br />
 
 
