@@ -23,20 +23,20 @@ This event is by OpenSUTD. If you would like to contribute to the event, you can
 You can also refer to the wiki here if you are interested to find out more. 
 
 ## Team members
-[Emily Law](https://github.com/castlemas) <br />
-[Hariz Bin Roslan](https://github.com/hariz-wrts) <br />
-[Joseph Low](https://github.com/jolow99) <br />
-[Tan Jia Yue](https://github.com/makehahaz) <br />
-[Chia Yong Kang](https://github.com/ExtremelySunnyYK) <br />
+[Emily Law](https://github.com/castlemas) Supper, Website and Lab Sessions<br />
+[Hariz Bin Roslan](https://github.com/hariz-wrts) Human Library <br />
+[Joseph Low](https://github.com/jolow99) Fifth Rows and Pillars <br />
+[Tan Jia Yue](https://github.com/makehahaz) Fifth Rows admin <br />
+[Chia Yong Kang](https://github.com/ExtremelySunnyYK) Fifth Rows Github issues <br />
 
 ### Acknowledgements
-[Hum Qingze](https://github.com/Fishbiscuit) <br />
-[James Raphael Tiovalen](https://github.com/jamestiotio) <br />
+[Hum Qingze](https://github.com/Fishbiscuit) Vetting <br />
+[James Raphael Tiovalen](https://github.com/jamestiotio) Vetting <br />
 
 ### Seniors who helped
-[Shyam Sridhar](https://github.com/SHSR2001) <br />
-[Huang He](https://github.com/MarkHershey) <br />
-[Leong Yun Qin Melody](https://github.com/caramelmelmel) <br />
+[Shyam Sridhar](https://github.com/SHSR2001) Proposal and email vetting <br />
+[Huang He](https://github.com/MarkHershey) email vetting and proposal vetting<br />
+[Leong Yun Qin Melody](https://github.com/caramelmelmel) Website, email vetting and proposal vetting <br />
 
 
 We would also like to thank the OpenSUTD community for making this event happen
